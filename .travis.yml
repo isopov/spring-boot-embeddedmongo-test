@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk8
+
+#ignore default install step
+install: true
+
+script: ./mvnw clean verify
+
